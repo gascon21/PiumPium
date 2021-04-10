@@ -1,3 +1,5 @@
+@import '../global.scss';
+
 a.navbar-brand {
   white-space: normal;
   text-align: center;
@@ -15,4 +17,25 @@ html {
 
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+li {
+  background-color: $primary-color;
+  border-radius: 5px;
+  margin: 0 5px;
+} 
+.nav-menu {
+
+
+  &--list {
+
+
+    &__first {
+
+    }
+
+    &::nth-child(even) a {
+
+    }
+  }
 }
